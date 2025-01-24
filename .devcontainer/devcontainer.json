@@ -1,11 +1,11 @@
 {
-    "name": "Codespaces Development Container",
+    "name": "Container",
     "image": "mcr.microsoft.com/devcontainers/base:debian",
     "settings": {},
     "extensions": [],
     "postCreateCommand": "echo secret is $REPO_SECRET",
     "remoteUser": "vscode",
     "containerEnv": {
-        "DEVCONTAINER": "dev container env"
+        "DEVCONTAINER": "$REPO_SECRET"
     }
 }
