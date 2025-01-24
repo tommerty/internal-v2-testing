@@ -6,6 +6,6 @@
     "postCreateCommand": "echo secret is $REPO_SECRET",
     "remoteUser": "vscode",
     "containerEnv": {
-        "DEVCONTAINER": "$REPO_SECRET"
+        "DEVCONTAINER": "${REPO_SECRET}"
     }
 }
