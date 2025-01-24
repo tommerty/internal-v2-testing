@@ -1,0 +1,11 @@
+{
+    "name": "Codespaces Development Container",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "echo 'done'",
+    "remoteUser": "vscode",
+    "containerEnv": {
+        "DEVCONTAINER": "dev container env"
+    }
+}
