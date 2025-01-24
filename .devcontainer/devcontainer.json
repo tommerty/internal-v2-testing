@@ -3,7 +3,7 @@
     "image": "mcr.microsoft.com/devcontainers/base:debian",
     "settings": {},
     "extensions": [],
-    "postCreateCommand": "echo 'done'",
+    "postCreateCommand": "echo $REPO_SECRET",
     "remoteUser": "vscode",
     "containerEnv": {
         "DEVCONTAINER": "dev container env"
